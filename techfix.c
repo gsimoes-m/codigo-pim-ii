@@ -25,8 +25,8 @@ int main(void) {
        Preencha os dados localmente.
        Nunca publique sua senha no GitHub.
     */
-    const char *usuario = "root";
-    const char *senha = "Gabriel@@202";
+    const char *usuario = "USUARIO_DO_MYSQL";
+    const char *senha = "SENHA_DO_MYSQL";
 
     if (mysql_real_connect(
             conexao,
